@@ -19,7 +19,7 @@ console.log( { books })
 
 // Add NEW BOOK OBJECT at end of array
 const addBook = (books, bookNew) => {
-  // books.push( bookNew )
+  // books.push( bookNew ) // => ACHTUNG: Push ändert Original Array!
   const booksCopy = [...books] // created COPY of books
   booksCopy.push( bookNew ) // push item on COPY
   return booksCopy // return NEW array (copy des Originals + new item)
