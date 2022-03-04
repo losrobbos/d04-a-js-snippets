@@ -27,4 +27,4 @@ const booksUpdated = books.map( ( book ) => {
 }) // ACHTUNG: wenn wir ein Object in map updaten, wird das ORIGINAL verändert!
 
 console.log({ booksUpdated })
-
+console.log({ books })
