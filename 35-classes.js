@@ -3,7 +3,9 @@
 // KLASSEN
 
 
-// _varname => convention => a READONLY thing we just set ONCE and never CHANGE again!
+// _varname 
+// => convention with underscore at the beginning => we declare this as a READONLY thing we will just set ONCE and never CHANGE it again! 
+// classical example: ID field => _id
 
 // basic employee
 class Employee {
