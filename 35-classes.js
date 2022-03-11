@@ -48,7 +48,7 @@ console.log(employee.fullName)
 
 employee.firstName = "Umberto"
 
-console.log(employee.fullName)
+console.log(employee.fullName) // AHA! Getter detects changes of firstname and prints the updated fullname!
 
 // CALL a setter
 employee.fullName = "Joey Tribiani" // set => fullName => fullName("Joey Tribiani")
