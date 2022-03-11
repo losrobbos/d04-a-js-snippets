@@ -15,7 +15,7 @@ class Employee {
     this.firstName = firstName
     this.lastName = lastName
     
-    // BAD PRACTICE => do NEVER hardcode combinations of properties with one another
+    // BAD PRACTICE => do NEVER hardcode combinations of properties with one another => use a getter instead!
     // this.fullName = firstName + " " + lastName
     
     this.company = company
