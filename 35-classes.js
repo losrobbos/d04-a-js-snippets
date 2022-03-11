@@ -27,6 +27,7 @@ class Employee {
   get fullName() {
     return this.firstName + " " + this.lastName
   }
+  // other use cases for getter => get a property in different FORMAT, e.g. UPPERCASE
 
   // set new fullname means => set new FIRSTNAME and new LASTNAME
   set fullName( fn ) // Donald Trump => firstName = Donald, lastName = Trump 
@@ -37,8 +38,6 @@ class Employee {
     this.lastName = arrFirstnameLastname[1] // lastname
     // no return
   }
-
-  // other use cases => get a propertiy in different FORMAT, e.g. UPPERCASE
 
 }
 
